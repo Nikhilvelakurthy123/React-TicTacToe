@@ -1,0 +1,15 @@
+button{
+    width: 100%;
+    height: 100%;
+}
+table{
+    /* width: 50%;  */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: auto;  
+}
+td{
+    height: 95px;
+    width: 95px;  
+}
