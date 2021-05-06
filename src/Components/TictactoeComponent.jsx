@@ -173,6 +173,8 @@ export default class TictactoeComponent extends Component {
                         </tr>
                     </tbody>
                 </table>
+                <br/>
+                <br/>
             </div>
         )
     }
