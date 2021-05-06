@@ -142,12 +142,12 @@ export default class TictactoeComponent extends Component {
     render() {
         return (
             <div className="tictactoe">
-                <h1>Welcome to My game</h1>
+                <h1>Welcome to <strong>TicTacToe</strong> Game</h1>
                 <table>
                     <thead>
                         <tr>
-                            <td>{this.state.res.length > 0 && this.state.res}</td>
-                            <td>{this.state.counter % 2 === 0 ? "X Turn" : "O Turn"}</td>
+                            <td><strong>{this.state.res.length > 0 && this.state.res}</strong></td>
+                            <td><strong>{this.state.counter % 2 === 0 ? "X Turn" : "O Turn"}</strong></td>
                         </tr>
                     </thead>
                     <tbody>
